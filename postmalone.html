@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/raisty/OCR-B@1.1/dist/ocrb.css" integrity="sha384-{hash}" crossorigin="anonymous" />
+</head>
+<style>
+@font-face {
+  font-family: "OCR-B";
+  src: url(https://cdn.jsdelivr.net/gh/raisty/OCR-B/dist/OCR-B.ttf) format("truetype"),
+       url(https://cdn.jsdelivr.net/gh/raisty/OCR-B/dist/OCR-B.otf) format("opentype");
+}
+
+@font-face {
+
+  font-family: "OCR-B";
+  src: url(https://cdn.jsdelivr.net/gh/raisty/OCR-B@1/dist/OCR-B.ttf) format("truetype"),
+       url(https://cdn.jsdelivr.net/gh/raisty/OCR-B@1/dist/OCR-B.otf) format("opentype");
+}
+
+body,html{
+    width: 100%;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "OCR-B";
+}
+.firstbox{
+    width: 1903px;
+    height: 1616.69px;
+    background-color: aquamarine;
+    background-image: url(https://www.postmalone.com/files/2022/05/ALL-PARTNER-POST-MALONE-ALFRED-0013-desktop-v2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.innerbox{
+  width: 631px;
+  height: 631px;
+  background-color: black;
+  position: absolute;
+  margin-left: 20px;
+  background-image: url(https://www.postmalone.com/files/2022/05/austin-cover-1.jpg);
+  background-size: cover;
+  margin-top: 578px;
+}
+.header{
+    height: 335px;
+    width: 338px;
+    background-color: transparent;
+    position: absolute;
+    margin-left: 1540px;
+    margin-top: 23px;
+    position: fixed;
+    z-index: 2;
+    
+    
+}
+
+.Ptext{
+    padding-left: 18px;
+    font-weight: 400;
+    font-family: "OCR-B";
+    padding-top: 10px;
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.blinkerbox{
+    height: 17px;
+    width: 12px;
+    background-color: white;
+    margin-top: -33px;
+    margin-left: 307px;
+    animation-name: blinker;
+    animation-duration:2s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 0ms;
+
+}
+
+@keyframes blinker{
+    from {opacity: 100%;}
+    to{opacity: 20%;}
+}
+
+ol{
+    font-size: 14px;
+    line-height: 1.15;
+    font-weight: bold;
+    padding-left: 128px;
+    padding-top: 49px;
+    color: white;
+}
+.barcode{
+    background-image: url(https://www.postmalone.com/files/2022/05/image-7.png);
+    background-color: antiquewhite;
+    width: 211.05px;
+    height: 79.75px;
+    background-size: cover;
+    margin-left: 127px;
+    margin-top: 0px;
+    position: absolute;
+}
+.scroll{
+    height: 23px;
+    width: 338px;
+    background-color: black;
+    position: absolute;
+    color: aliceblue;
+    overflow: hidden;
+    margin-top: 79px;
+    
+
+}
+
+.hehe{
+    animation-name: scrollme;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes scrollme{
+    0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(100%);
+      }
+    }
+
+
+    .newalbum{
+        font-size: 13px;
+        margin-top: 21px;
+        margin-left: 23px;
+        position: absolute;
+        letter-spacing: -1px;
+        color: white;
+       
+    }
+
+    .btn{
+      margin-top: 33px;
+      margin-left: 22px;
+      position: absolute;
+      color: white;
+    }
+
+    .tna{
+        font-size: 15px;
+        margin-left: 308px;
+        margin-top: 454px;
+        position: absolute;
+        font-size: 13px;
+        letter-spacing: -1px;
+        color: white;
+    }
+    .aus{
+        font-size: 15px;
+        margin-left: 691px;
+        margin-top: 319px;
+        position: absolute;
+        font-size: 13px;
+        letter-spacing: -1px;
+        color: white;
+    }
+    .avail{
+        font-size: 15px;
+        margin-left: 794px;
+        margin-top: 571px;
+        position: absolute;
+        font-size: 13px;
+        letter-spacing: -1px;
+        color: white;
+    }
+
+    .now{
+        font-size: 15px;
+        margin-left: 1102px;
+        margin-top: 722px;
+        position: absolute;
+        font-size: 13px;
+        letter-spacing: -1px;
+        color: white;
+    }
+    .stream{
+        font-size: 15px;
+        margin-left: 1455px;
+        margin-top: 813px;
+        position: absolute;
+        font-size: 13px;
+        letter-spacing: -1px;
+        color: white;
+        text-decoration: underline;
+    }
+    .stream:hover{
+        color:antiquewhite
+    }
+
+    .secondbox{
+        width: 1903px;
+        height: 960.8px;
+        background-color: aquamarine;
+        background-image: url(https://cache.umusic.com/_sites/_halo/postmalone/harley/pm-prelaunch-homepage-full-frame-hero-1800x1200-v2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .number{
+        margin-left: 14px;
+        margin-top: 86px;
+        position: absolute;
+        color: white;
+        font-size: 11px;
+    }
+    .pm{
+        margin-left: 14px;
+        margin-top: 86px;
+        position: absolute;
+        color: white;
+        font-size: 11px;
+    }
+    .harley{
+        margin-left: 71px;
+        margin-top: 105px;
+        position: absolute;
+        color: white;
+        font-size: 11px;
+    }
+    .shop{
+        margin-left: 14px;
+        margin-top: 163px;
+        position: absolute;
+        color: white;
+        font-size: 11px;
+        text-decoration: underline;
+    }
+    .shop:hover{
+        color: antiquewhite;
+    }
+
+.mic{
+    width: 544.89px;
+    height: 544.89px;
+    background-color: aqua;
+    background-image: url(https://cache.umusic.com/_sites/_halo/postmalone/harley/HDCollections_PMxHD_Presale_230723_1000x1000_1.jpg);
+    background-size: cover;
+    position: absolute;
+    margin-left: 541px;
+    margin-top: 217px;
+}
+.heading{
+        margin-left: 1114px;
+        margin-top: 398px;
+        position: absolute;
+        color: white;
+        font-size: 17px;
+}
+.an{
+        margin-left: 1114px;
+        margin-top: 433px;
+        position: absolute;
+        color: white;
+        font-size: 12px;
+} 
+
+.learn{
+        margin-left: 1114px;
+        margin-top: 487px;
+        position: absolute;
+        color: white;
+        font-size: 12px;
+}
+.link{
+        margin-left: 1114px;
+        margin-top: 506px;
+        position: absolute;
+        color: white;
+        font-size: 12px;
+        text-decoration: underline;
+}
+.all{
+    margin-left: 1114px;
+        margin-top: 559px;
+        position: absolute;
+        color: white;
+        font-size: 12px;
+        text-decoration: underline;
+}
+.all:hover{
+    color: antiquewhite;
+}
+.thirdbox{
+    width: 1903px;
+    height: 570.59px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+.two{
+    margin-left: 14px;
+        margin-top: 86px;
+        position: absolute;
+        color: white;
+        font-size: 11px;
+}
+.post{
+    margin-left: 14px;
+        margin-top: 112px;
+        position: absolute;
+        color: white;
+        font-size: 11px;
+}
+.buy{
+    margin-left: 71px;
+        margin-top: 135px;
+        position: absolute;
+        color: white;
+        font-size: 11px;
+}
+.buy1{
+    margin-left: 14px;
+        margin-top: 206px;
+        position: absolute;
+        color: white;
+        font-size: 11px;
+        text-decoration: underline;
+}
+.buy1:hover{
+        color: antiquewhite;
+    }
+    ul{
+        color: white;
+        margin-top: 83px;
+        margin-left: 819px;
+        position: absolute;
+        font-size: 11px;
+        line-height: 3em;
+        font-weight: bold;
+    }
+    .price{
+        color: white;
+        margin-top: 83px;
+        margin-left: 1788px;
+        position: absolute;
+        font-size: 11px;
+        line-height: 3em;
+        font-weight: bold;
+    }
+
+    .fourthbox{
+    width: 1903px;
+    height: 895.56px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+
+    }
+    .austin{
+        width: 544.89px;
+        height: 544.89px;
+        background-color: aqua;
+        background-image: url(https://www.postmalone.com/files/2022/05/austin-cover-1.jpg);
+        background-size: cover;
+        margin-left: 487px;
+        margin-top: 216px;
+        position: absolute;
+    }
+    .sunflower{
+        color: white;
+        margin-top: 205px;
+        margin-left: 1054px;
+        position: absolute;
+        font-size: 11px;
+        line-height: 3em;
+        font-weight: bold;
+    }
+
+    .songs{
+        color: white;
+        margin-top: 262px;
+        margin-left: 1014px;
+        position: absolute;
+        font-size: 11px;
+        line-height: 3em;
+        font-weight: bold;
+    }
+    .timeline{
+        color: white;
+        margin-top: 262px;
+        margin-left: 1812px;
+        position: absolute;
+        font-size: 11px;
+        line-height: 3em;
+        font-weight: bold;
+    }
+    .download{
+        font-size: 15px;
+        margin-left: 1053px;
+        margin-top: 869px;
+        position: absolute;
+        font-size: 13px;
+        letter-spacing: -1px;
+        color: white;
+        text-decoration: underline;
+    }
+
+
+    .fifthbox{
+        width: 1903px;
+    height: 784.56px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    }
+    .date{
+        color: white;
+        margin-top: 194px;
+        margin-left: 321px;
+        position: absolute;
+        font-size: 11px;
+        line-height: 3em;
+        font-weight: bold;
+    }
+    .location{
+        color: white;
+        margin-top: 194px;
+        margin-left: 530px;
+        position: absolute;
+        font-size: 11px;
+        line-height: 3em;
+        font-weight: bold;
+    }
+
+    .state{
+        color: white;
+        margin-top: 194px;
+        margin-left: 1237px;
+        position: absolute;
+        font-size: 11px;
+        line-height: 3em;
+        font-weight: bold;
+    }
+
+    .rsvp{
+        color: white;
+        margin-top: 194px;
+        margin-left: 1770px;
+        position: absolute;
+        font-size: 11px;
+        line-height: 3em;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .rsvp:hover{
+        color: antiquewhite;
+    }
+
+    .tickets{
+        color: white;
+        margin-top: 194px;
+        margin-left: 1638px;
+        position: absolute;
+        font-size: 11px;
+        line-height: 3em;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .tickets:hover{
+        color: antiquewhite;
+    }
+
+
+    .sixthbox{
+        height: 1069.44px;
+        width: 1903px;
+        background-color: rgb(127, 255, 155);
+        position: relative;
+    }
+    .five{
+        margin-left: 14px;
+        margin-top: -1129px;
+        position: absolute;
+        color: white;
+        font-size: 11px;
+    }
+
+    .pm1{
+        margin-left: 14px;
+        margin-top: -1103px;
+        position: absolute;
+        color: white;
+        font-size: 11px;
+    }
+    .videos{
+        margin-left: 60px;
+        margin-top: -1085px;
+        position: absolute;
+        color: white;
+        font-size: 11px;
+    }
+    .underlinetext{
+        margin-left: 14px;
+        margin-top: -1013px;
+        position: absolute;
+        color: white;
+        font-size: 11px;
+        text-decoration: underline;
+    }
+
+    .underlinetext:hover{
+        color: antiquewhite;
+    }
+
+    .seventhbox{
+        height: 1070.44px;
+        width: 1903px;
+        background-color: rgb(0, 0, 0);
+        position: relative;
+    }
+.cr{
+    margin-left: 14px;
+        margin-top: 163px;
+        position: absolute;
+        color: white;
+        font-size: 11px;
+}
+.rr{
+    margin-left: 73px;
+        margin-top: 176px;
+        position: absolute;
+        color: white;
+        font-size: 11px;
+}
+.tc{
+    margin-left: 14px;
+        margin-top: 189px;
+        position: absolute;
+        color: white;
+        font-size: 11px;
+}
+.donot{
+    margin-left: 14px;
+        margin-top: 201px;
+        position: absolute;
+        color: white;
+        font-size: 11px;
+}
+
+.contact{
+    margin-left: -24px;
+        margin-top: 889px;
+        position: absolute;
+        color: white;
+        font-size: 11px;
+        line-height: 2em;
+}
+.disc{
+    width: 916.5px;
+    height: 916.5px;
+    background-color: transparent;
+    position: absolute;
+    margin-left: 960px;
+    margin-top: 140px;
+    background-image: url(https://www.postmalone.com/files/2022/05/Mask-group.png);
+    background-size: cover;
+    overflow: hidden;
+    transition: transform .7s ease-in-out;}
+ 
+   .disc:hover {
+  transform: rotate(360deg);
+}
+
+.circle{
+height: 688px;
+width: 688px;
+position: absolute;
+margin-left: 9px;
+margin-top: 231px;
+z-index: 2;
+background-image: url(https://www.postmalone.com/files/2022/05/Ellipse-1.png);
+}
+
+
+
+
+
+
+</style>
+<body>
+<div class="firstbox">
+    <span class="newalbum">Post Malone </span>
+    <p class="btn">▮</p>
+    <p class="tna">The new album</p>
+    <p class="aus">AUSTIN</p>
+    <p class="avail">Available</p>
+    <p class="now">Now</p>
+    <p class="stream">Stream/Download</p>
+
+<div class="innerbox"></div>
+
+<div class="header">
+    
+    <p class="Ptext">P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M</p>
+    <div class="blinkerbox"></div>
+    <ol style="list-style-type: none;">
+        <li>1 Homepage</li>
+        <li>2 Shop</li>
+        <li>3 Music</li>
+        <li>4 Shows</li>
+        <li>5 Videos</li>
+        <li>6 Credits</li>
+        <li>7 Email Signup</li>
+    </ol>
+
+<div class="barcode"></div>
+<div class="scroll">
+    <span class="hehe">The new album “AUSTIN” out now. The new album “AUSTIN” out now.</span></div>
+</div>
+</div>
+    
+
+
+<div class="secondbox">
+    <p class="number">1</p>\
+    <P class="pm">Post Malone ▮</P>
+    <p class="harley">Harley-Davidson</p>
+    <p class="shop">SHOP ALL</p>
+    <p class="heading">POST MALONE X HARLEY-DAVIDSON</p>
+    <p class="an">Available Now</p>
+    <p class="learn">Learn more at</p>
+    <p class="link">shop.postmalone.com/collections/harley-davidson</p>
+    <p class="all">SHOP ALL</p>
+<div class="mic"></div>
+</div>
+
+
+<div class="thirdbox">
+    <p class="two">2</p>
+    <P class="post">Post Malone ▮</P>
+    <p class="buy">Shop</p>
+    <p class="buy1">SHOP ALL</p>
+
+
+    <ul style="list-style-type: none;">
+        <li>Austin 2LP</li>
+        <li>Austin CD</li>
+        <li>Austin Digital Album</li>
+        <li>Chemical Tee</li>
+        <li>Chemical Hoodie</li>
+        <li>Chemical Tote</li>
+    </ul>
+
+    <ul class="price" style="list-style-type: none;">
+        <li>$46.00</li>
+        <li>$12.00</li>
+        <li>$10.00</li>
+        <li>$40.00</li>
+        <li>$65.00</li>
+        <li>$35.00</li>
+    </ul>
+
+</div>
+
+<div class="fourthbox">
+    <p class="two">2</p>
+    <P class="post">Post Malone ▮</P>
+    <p class="buy">Music</p>
+    <p class="buy1">ALLDISCOGRAPHY</p>
+    <div class="austin"></div>
+
+    <p class="sunflower">Austin</p>
+    <ul class="songs" style="list-style-type: none;">
+        <li>Don't Understand</li>
+        <li>Something Real</li>
+        <li>Chemical</li>
+        <li>Novacandy</li>
+        <li>Mourning</li>
+        <li>Too Cool To Die</li>
+        <li>Sign Me Up</li>
+        <li>Socialite</li>
+        <li>Overdrive</li>
+        <li>Speedometer</li>
+        <li>Hold My Breath</li>
+        <li>Enough Is Enough</li>
+        <li>Texas Tea</li>
+        <li>Buyer Beware</li>
+        <li>Landmine</li>
+        <li>Green Thumb</li>
+        <li>Laugh It Off</li>
+    </ul>
+
+    <ul class="timeline" style="list-style-type: none;">
+        <li>3:03</li>
+        <li>3:25</li>
+        <li>3:03</li>
+        <li>3:17</li>
+        <li>2:28</li>
+        <li>3:25</li>
+        <li>3:19</li>
+        <li>3:19</li>
+        <li>2:28</li>
+        <li>2:42</li>
+        <li>3:29</li>
+        <li>2:45</li>
+        <li>2:19</li>
+        <li>2:53</li>
+        <li>3:05</li>
+        <li>2:39</li>
+        <li>4:06</li>
+    </ul>
+
+
+    <p class="download">Stream/Download</p>
+
+</div>
+
+<div class="fifthbox">
+
+    <p class="two">4</p>
+    <P class="post">Post Malone ▮</P>
+    <p class="buy">Shows</p>
+    <p class="buy1">ALL SHOWS</p>
+    
+
+    <ul class="date" style="list-style-type: none;">
+        <li>11.21.23</li>
+        <li>11.23.23</li>
+        <li>11.25.23</li>
+        <li>11.26.23</li>
+        <li>11.29.23</li>
+        <li>11.30.23</li>
+        <li>12.02.23</li>
+        <li>12.03.23</li>
+        <li>12.30.23</li>
+        <li>12.31.23</li>
+        <li>02.03.24</li>
+        <li>03.16.24</li>
+        <li>04.27.24</li>
+    </ul>
+
+
+    <ul class="location" style="list-style-type: none;">
+        <li>The Outerfields at Western Springs</li>
+        <li>Brisbane Showgrounds</li>
+        <li>Spilt Milk Festival - Canberra 2023</li>
+        <li>Spilt Milk Festival - Gold Coast 2023</li>
+        <li>The Domain</li>
+        <li>Showgrounds</li>
+        <li>Spilt Milk Festival - Ballarat 2023</li>
+        <li>Spilt Milk Festival - Perth 2023</li>
+        <li>Fontainebleau Las Vegas</li>
+        <li>Fontainebleau Las Vegas</li>
+        <li>TPC Scottsdale</li>
+        <li>Rolling Loud California</li>
+        <li>Stagecoach 2024</li>
+    </ul>
+
+<ul class="state" style="list-style-type: none;">
+    <li>Auckland</li>
+    <li>Brisbane</li>
+    <li>Mitchell</li>
+    <li>Carrara</li>
+    <li>Sydney</li>
+    <li>Melbourne</li>
+    <li>Newington</li>
+    <li>Claremont</li>
+    <li>Las Vegas, NV</li>
+    <li>Las Vegas, NV</li>
+    <li>Scottsdale, AZ</li>
+    <li>Inglewood, CA</li>
+    <li>Indio, CA</li>
+</ul>
+
+<ul class="rsvp" style="list-style-type: none;">
+    <li>RSVP</li>
+    <li>RSVP</li>
+    <li>RSVP</li>
+    <li>RSVP</li>
+    <li>RSVP</li>
+    <li>RSVP</li>
+    <li>RSVP</li>
+    <li>RSVP</li>
+    <li>RSVP</li>
+    <li>RSVP</li>
+    <li>RSVP</li>
+    <li>RSVP</li>
+    <li>RSVP</li>
+</ul>
+
+<ul class="tickets" style="list-style-type: none;">
+    <li>Tickets</li>
+    <li>Tickets</li>
+    <li>Tickets</li>
+    <li>Tickets</li>
+    <li>Tickets</li>
+    <li>Tickets</li>
+    <li>Tickets</li>
+    <li>Tickets</li>
+    <li>Tickets</li>
+    <li>Tickets</li>
+    <li>Tickets</li>
+    <li>Tickets</li>
+    <li>Tickets</li>
+</ul>
+</div>
+
+
+<div class="sixthbox">
+    <video width="1903px" height="1070.44px" autoplay=1& mute=1& controls="0">
+        <source src="./x2mate.com-Post Malone - Chemical (Official Music Video)-(1080p).mp4" type="video/mp4">
+      </video>   
+
+      <p class="five">5</p>
+      <p class="pm1">Post Malone</p>
+      <p class="videos">Videos</p>
+      <p class="underlinetext">ALL Videos</p>
+    
+</div>
+
+
+<div class="seventhbox">
+<p class="cr">Copyright</p>
+<p class="rr">Republic Records</p>
+<p class="tc">Terms & Conditions</p>
+<p class="donot">Do Not Sell My Info</p>
+
+<ul class="contact" style="list-style-type: none;">
+    <li>Instagram</li>
+    <li>Twitter</li>
+    <li>TikTok</li>
+    <li>Facebook</li>
+    <li>YouTube</li>
+    <li>Twitch</li>
+    <li>Discord</li>
+</ul>
+
+<div class="disc"></div>
+<div class="circle"></div>
+
+</div>
+
+
+</body>
+</html>
+
